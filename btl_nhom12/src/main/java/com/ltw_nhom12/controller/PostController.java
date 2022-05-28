@@ -37,7 +37,7 @@ public class PostController {
         System.out.println("****************************");
         if (user.isPresent()) {
             System.out.println("****************************");
-            System.out.println("ko loi");
+            System.out.println("Success");
             System.out.println("****************************");
             Post post = new Post();
             post.setUser(user.get());
@@ -48,7 +48,7 @@ public class PostController {
 
         } else {
             System.out.println("****************************");
-            System.out.println("loi");
+            System.out.println("Error found.");
             System.out.println("****************************");
             return "/error";
         }
@@ -57,7 +57,7 @@ public class PostController {
     @RequestMapping(value = "/newpost", method = RequestMethod.POST)
     public String createNewPost(Post post) {
         System.out.println("****************************");
-        System.out.println("da luu");
+        System.out.println("Saved");
         System.out.println("****************************");
         postService.save(post);
         return "redirect:/blog/" + post.getUser().getUsername();
