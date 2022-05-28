@@ -2,11 +2,11 @@
 
 # Thành viên nhóm:
 
-## Nguyễn Thanh Châu - B19DCCN096
+Nguyễn Thanh Châu - B19DCCN096
 
-## Đỗ Kim Anh - B19DCCN012
+Đỗ Kim Anh - B19DCCN012
 
-## Vũ Việt Anh- B19DCCN050
+Vũ Việt Anh- B19DCCN050
 
 # Phân chia công việc:
 
