@@ -36,15 +36,4 @@ public class PostServiceBean implements PostService {
     public void delete(Post post) {
         postRepo.delete(post);
     }
-//
-//    @Override
-//    public Page<Post> findByUserOrderedByDatePageable(User user, int page) {
-//        return postRepo.findAllByOrderByCreateDateDesc(user, new PageRequest(subtractPageByOne(page), 5));
-//    }
-//
-//    @Override
-//    public Page<Post> findAllOrderedByDatePageable(int page) {
-//        return null;
-//    }
-
 }
